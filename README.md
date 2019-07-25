@@ -31,8 +31,8 @@ import { Credentials, User } from 'realm-graphql-client';
 
 const credentials = Credentials.usernamePassword('SOME-USERNAME', 'SOME-PASSWORD');
 const user = await User.authenticate(credentials, 'http://my-ros-instance:9080');
-```
-
+```v . 
+grbfveerv
 Other credential providers are supported, such as JWT, Facebook, Google etc. They are all exposed as factories on the `Credentials` class.
 
 After you have your user, you can create a helper config that will handle token refreshes and authentication:
